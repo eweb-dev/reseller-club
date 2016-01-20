@@ -56,7 +56,7 @@ class ResellerClub
       $query = $request->getQuery();
       $query->setAggregator($query::duplicateAggregator());
       $response = $client->send($request);
-      return $response->json();
+      return json_encode((string) $response->getBody());
     }
     catch(\GuzzleHttp\Exception\ConnectException $e)
     {
