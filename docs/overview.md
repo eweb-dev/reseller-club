@@ -1,9 +1,9 @@
 # ResellerClub PHP Api - Overview
 
 ## Requirements
-- PHP version >= 5.4.0
+- PHP Version >= 5.4.0
 - PHP Curl
-- GuzzleHttp Package version >= 5.0.0
+- GuzzleHttp Package Version ^6
 
 ## Installation
 Run this command through your command line or terminal
@@ -15,7 +15,7 @@ Run this command through your command line or terminal
 Or for the secondary method, you have to modify `composer.json` file and add this line
 
 ```json
-  "require":{
+  "require": {
     "gufy/reseller-club":"~1"
   }
 ```
