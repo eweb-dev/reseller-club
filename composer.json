@@ -18,9 +18,5 @@
             "Gufy\\ResellerClub\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "require-dev": {
-        "orchestra/testbench": "~2",
-        "satooshi/php-coveralls": "dev-master"
-    }
+    "minimum-stability": "stable"
 }
