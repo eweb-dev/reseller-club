@@ -1,5 +1,5 @@
 {
-    "name": "gufy/reseller-club",
+    "name": "webna-me/reseller-club",
     "description": "PHP ResellerClub API bridge",
     "keywords":["reseller-club", "reseller club", "api"],
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Gufy\\ResellerClub\\": "src/"
+            "Webname\\ResellerClub\\": "src/"
         }
     },
     "minimum-stability": "stable",
